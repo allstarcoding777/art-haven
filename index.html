@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Haven</title>
+     <!-- Link to external CSS -->
+     <link rel="stylesheet" href="css/styles.css">
+    <!-- Include Custom Theme -->
+    <link rel="stylesheet" href="css/themes/arthaventheme.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <!-- Include jQuery Mobile Structure Styles -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <!-- Include jQuery and jQuery Mobile Scripts -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+
+<body>
+    <!-- Home Page -->
+    <div data-role="page" id="home" data-theme="a">
+        <!-- Header with Theme A -->
+        <header data-role="header" data-theme="a">
+            <h1>Welcome to Art Haven</h1>
+        </header>
+
+        <!-- Main Content Area -->
+        <main role="main" class="ui-content">
+            <p>Discover the joy of art with tools, tips, and inspirations for all skill levels.</p>
+            <p>Join us in exploring everything from foundational tools to specialty items that will spark your imagination.</p>
+
+            <!-- Mobile Responsive Image -->
+            <div class="image-container">
+                <img src="images/artimg.jpeg" alt="Art tools and supplies" class="responsive-image">
+            </div>
+
+            <!-- Grid Layout -->
+            <div class="ui-grid-b">
+                <div class="ui-block-a" data-theme="b">
+                    <h3>Paints</h3>
+                    <p>Explore acrylics, watercolors, and more.</p>
+                </div>
+                <div class="ui-block-b" data-theme="b">
+                    <h3>Brushes</h3>
+                    <p>Find the perfect brush for your technique.</p>
+                </div>
+                <div class="ui-block-c" data-theme="b">
+                    <h3>Sketch Pads</h3>
+                    <p>Discover quality paper for every medium.</p>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <ul data-role="listview" data-inset="true">
+                <li><a href="form.html" data-theme="b">Add Favorites</a></li>
+                <li><a href="list.html" data-theme="c">View Favorites</a></li>
+            </ul>
+        </main>
+
+        <!-- Footer -->
+        <footer data-role="footer" data-theme="a">
+            <p>&copy; 2024 Art Haven. All rights reserved.</p>
+        </footer>
+    </div>
+    <!-- Include custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+

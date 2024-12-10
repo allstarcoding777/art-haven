@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Haven - Favorites</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Include ThemeRoller Styles -->
+    <link rel="stylesheet" href="css/themes/arthaventheme.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <!-- Include jQuery Mobile Structure Styles -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <!-- Favorites Page -->
+    <div data-role="page" id="favorites" data-theme="a">
+        <!-- Header -->
+        <header data-role="header" data-theme="a">
+            <h1>Favorites</h1>
+        </header>
+
+        <!-- Main Content -->
+        <main role="main" class="ui-content">
+            <!-- List of favorite items -->
+            <ul id="favoritesList" data-role="listview" data-inset="true">
+                <!-- Populated dynamically via script.js -->
+            </ul>
+        </main>
+
+        <!-- Footer -->
+        <footer data-role="footer" data-theme="a">
+            <a href="index.html" data-role="button" data-theme="b" data-icon="home">Back</a>
+            <p>&copy; 2024 Art Haven. All rights reserved.</p>
+        </footer>
+    </div>
+    <!-- Include custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
