@@ -29,4 +29,4 @@ The website is structured into three main pages:
    - Includes a **Back Button** to return to the Home Page.
 
 ## Live Website URL
-[Visit Art Haven]https://github.com/allstarcoding777/art-haven
+https://allstarcoding777.github.io/art-haven/
